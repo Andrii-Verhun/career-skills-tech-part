@@ -1,0 +1,34 @@
+.header {
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+    border-bottom: 1px solid #919191;
+}
+
+.navigation {
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLink {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #EBD8FF;
+    background: #32124d;
+    padding: 3px 10px;
+    border-radius: 8px;
+    transition: all 300ms;
+}
+
+.navLink:hover, .navLink:focus {
+    background: #5736A3;
+}

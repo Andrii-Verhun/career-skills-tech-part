@@ -1,0 +1,26 @@
+.wrapper {
+    background-image: url('../../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+}
+
+.main {
+    /* height: 90vh; */
+}
+
+.caption {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 50px;
+    color: #32124d;
+    margin-top: 220px;
+}
+
+@media screen and (max-width: 1550px) {
+    .caption {
+        font-size: 40px;
+        margin-top: 250px;
+    }
+}
